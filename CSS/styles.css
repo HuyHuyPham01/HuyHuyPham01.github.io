@@ -216,13 +216,17 @@
         width: 100px;
     }
 
+    .combo3 {
+        margin-right: 10px;
+    }
+
     .combo .big_text {
         padding-top: 25px;
         padding-left: 10px;
     }
 
     #working_experience .big_text {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .img {
@@ -231,15 +235,15 @@
     }
 
     #personal_skill .big_text {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #certificates .big_text {
-        font-size: 25px;
+        font-size: 22px;
         padding-right: 10px;
     }
 
     #awards .big_text {
-        font-size: 25px;
+        font-size: 22px;
     }
 }
