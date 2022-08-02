@@ -3,20 +3,17 @@
     padding: 0;
 }
 
-/* back */
-
 #back {
     position: fixed;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #back img {
     width: 50px;
 }
 
-/* main */
-
-#main, #main_profile {
+#main {
     width: 50%;
     margin: 0 auto;
     font-family: 'EB Garamond', serif;
@@ -59,8 +56,6 @@
 #contact a:hover {
     text-decoration: underline;
 }
-
-/* Huy */
 
 #title_profile {
     width: 50%;
@@ -150,7 +145,6 @@
     font-family: 'Playfair Display', serif;
 }
 
-
 #awards {
     margin: 50px 0 0 0;
 } 
@@ -162,11 +156,33 @@
     font-family: 'Playfair Display', serif;
 }
 
+#main_profile_Huy, #main_profile_Thien, #main_profile_Ly, #main_profile_Tinh {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    display: none;
+}
+
+#title_profile, #content_profile, #working_experience, #personal_skill, #certificates, #awards, #contact {
+    position: relative;
+}
+
+#main_profile_Huy:target, #main_profile_Thien:target, #main_profile_Ly:target, #main_profile_Tinh:target {
+    display: block;
+    overflow-y: scroll;
+}
+
+.popup {
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* responsive */
 
 @media screen and (max-width: 768px)  {
-
-    /* back */
 
     #back {
         position: fixed;
@@ -177,9 +193,7 @@
         width: 30px;
     }
 
-    /* main  */
-
-    #main, #main_profile {
+    #main {
         width: 100%;
     }
 
@@ -200,8 +214,6 @@
         text-align: center;
         font-size: 15px;
     }
-
-    /* Huy */
 
     #content_profile {
         font-size: 20px;
@@ -245,5 +257,9 @@
 
     #awards .big_text {
         font-size: 22px;
+    }
+
+    .popup {
+        width: 100%;
     }
 }
