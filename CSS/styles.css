@@ -196,7 +196,7 @@
 
 /* responsive 920 */
 
-@media screen and (max-width: 920px)  {
+@media screen and (max-width: 920px) and (min-width: 420px) {
 
     #back {
         position: fixed;
