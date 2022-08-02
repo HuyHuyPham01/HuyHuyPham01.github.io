@@ -178,6 +178,7 @@
 .popup {
     width: 50%;
     margin: 0 auto;
+    font-family: 'EB Garamond', serif;
 }
 
 /* responsive */
@@ -261,5 +262,6 @@
 
     .popup {
         width: 100%;
+        font-family: 'EB Garamond', serif;
     }
 }
