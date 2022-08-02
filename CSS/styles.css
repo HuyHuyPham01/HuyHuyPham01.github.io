@@ -114,12 +114,28 @@
     padding-left: 10px;
 }
 
+#career_goals {
+    margin: 100px 0;
+}
+
+#career_goals .big_text {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0;
+}
+
 #working_experience .big_text {
     display: inline-block;
-    font-size: 40px;
+    font-size: 45px;
     margin: 50px 20px 0 0;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+}
+
+#working_experience .img, #personal_skill .img, #certificates .img, #awards .img, #career_goals .img {
+    width: 100%;
 }
 
 #personal_skill {
@@ -127,7 +143,7 @@
 } 
 
 #personal_skill .big_text {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
@@ -139,7 +155,7 @@
 }
 
 #certificates .big_text {
-    font-size: 40px;
+    font-size: 45px;
     text-align: right;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
@@ -150,14 +166,14 @@
 } 
 
 #awards .big_text {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
 }
 
 #main_profile_Huy, #main_profile_Thien, #main_profile_Ly, #main_profile_Tinh {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
@@ -166,19 +182,16 @@
     display: none;
 }
 
-#title_profile, #content_profile, #working_experience, #personal_skill, #certificates, #awards, #contact {
-    position: relative;
-}
-
 #main_profile_Huy:target, #main_profile_Thien:target, #main_profile_Ly:target, #main_profile_Tinh:target {
     display: block;
-    overflow-y: scroll;
 }
 
 .popup {
     width: 50%;
     margin: 0 auto;
+    padding: 5px 0;
     font-family: 'EB Garamond', serif;
+    background-color: white;
 }
 
 /* responsive */
@@ -188,6 +201,7 @@
     #back {
         position: fixed;
         margin-left: 10px;
+        z-index: 1;
     }
 
     #back img {
@@ -238,7 +252,11 @@
         padding-left: 10px;
     }
 
-    #working_experience .big_text {
+    #career_goals {
+        margin: 50px 0;
+    }
+
+    #working_experience .big_text, #career_goals .big_text, #personal_skill .big_text, #awards .big_text {
         font-size: 22px;
     }
 
@@ -247,17 +265,13 @@
         margin: 0 10px;
     }
 
-    #personal_skill .big_text {
-        font-size: 22px;
+    #working_experience .img, #personal_skill .img, #certificates .img, #awards .img, #career_goals .img, #career_goals .img {
+        width: calc(100% - 20px);
     }
 
     #certificates .big_text {
         font-size: 22px;
         padding-right: 10px;
-    }
-
-    #awards .big_text {
-        font-size: 22px;
     }
 
     .popup {
