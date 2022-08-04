@@ -42,6 +42,13 @@ body {
     margin: 20px 0;
 }
 
+#content .text_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
 #contact {
     margin: 20px 0;
     text-align: center;
@@ -228,6 +235,10 @@ body {
         padding: 0 10px;
     }
 
+    #content .text_title {
+        font-size: 35px;
+    }
+
     #contact {
         margin: 10px 0;
         text-align: center;
@@ -312,6 +323,10 @@ body {
         height: 100%;
         margin: 5px 0;
         padding: 0 10px;
+    }
+
+    #content .text_title {
+        font-size: 20px;
     }
 
     #contact {
