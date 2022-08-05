@@ -351,8 +351,8 @@ body {
     }
     
     #video iframe {
-        width: 320px;
-        height: 180px;
+        width: 100%;
+        /* height: 180px; */
         display: flex;
         margin: 20px auto;
     }
