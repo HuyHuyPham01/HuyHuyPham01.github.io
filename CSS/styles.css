@@ -256,7 +256,7 @@ body {
     }
 
     #video iframe {
-        width: 100%;
+        width: 90%;
         display: flex;
         margin: 20px auto;
     }
@@ -352,7 +352,7 @@ body {
     }
     
     #video iframe {
-        width: 100%;
+        width: 90%;
         height: 240px;
         display: flex;
         margin: 20px auto;
